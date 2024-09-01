@@ -1,2 +1,7 @@
-print("Hello world")
-# IM black, my bad dekhinai
+
+try:
+    x = int(input("Enter a number: "))
+    print(x)
+
+except ValueError as e:
+    print(e)
